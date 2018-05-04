@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+   
     private var flipCounter = 0 {
         didSet {
             flipCountLabel.text = "Flips:  \(flipCounter)"
@@ -17,9 +18,15 @@ class ViewController: UIViewController {
     
 
     @IBAction func touchCard(_ sender: UIButton) {
+        flipCounter += 1
+        cardButton.setTitle("?", for: UIControlState.normal)
+        cardButton.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+        
     }
+        
+        
+    @IBOutlet weak var cardButton: UIButton!
     
-    @IBOutlet var CardButtons: [UIButton]!
     
     @IBOutlet weak var flipCountLabel: UILabel!
     
