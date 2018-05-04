@@ -1,5 +1,5 @@
 //
-//  card.swift
+//  Card.swift
 //  Concentration
 //
 //  Created by Shawn Mansfield on 5/3/18.
@@ -8,20 +8,19 @@
 
 import Foundation
 
-struct card {
-    
-    var isMatched = false
+struct Card {
     var isFaceUp = false
+    var isMatched = false
     var identifier: Int
     
-    static var identifierFactory = 0
+    static var cardFactoryIdentifer = 0
     
     static func getUniqueIdentifier() -> Int {
-        card.identifierFactory += 1
-        return identifierFactory
+        cardFactoryIdentifer += 1
+        return cardFactoryIdentifer
     }
     
     init(numberOfPairsOfCards: Int) {
-        self.identifier = card.getUniqueIdentifier()
+        self.identifier = Card.getUniqueIdentifier()
     }
 }

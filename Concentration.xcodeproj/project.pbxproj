@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7FBF4185209BE2F1005D85D5 /* card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBF4184209BE2F1005D85D5 /* card.swift */; };
+		7FBF4187209BE4DC005D85D5 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBF4186209BE4DC005D85D5 /* Concentration.swift */; };
+		7FBF4189209BE577005D85D5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBF4188209BE577005D85D5 /* Card.swift */; };
 		7FEA9E65209BC75B00BBBBAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9E64209BC75B00BBBBAF /* AppDelegate.swift */; };
 		7FEA9E67209BC75B00BBBBAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9E66209BC75B00BBBBAF /* ViewController.swift */; };
 		7FEA9E6A209BC75B00BBBBAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEA9E68209BC75B00BBBBAF /* Main.storyboard */; };
@@ -16,7 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7FBF4184209BE2F1005D85D5 /* card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = card.swift; sourceTree = "<group>"; };
+		7FBF4186209BE4DC005D85D5 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		7FBF4188209BE577005D85D5 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		7FEA9E61209BC75B00BBBBAF /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FEA9E64209BC75B00BBBBAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FEA9E66209BC75B00BBBBAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +61,8 @@
 				7FEA9E76209BC85B00BBBBAF /* Supporting Files */,
 				7FEA9E66209BC75B00BBBBAF /* ViewController.swift */,
 				7FEA9E68209BC75B00BBBBAF /* Main.storyboard */,
-				7FBF4184209BE2F1005D85D5 /* card.swift */,
+				7FBF4188209BE577005D85D5 /* Card.swift */,
+				7FBF4186209BE4DC005D85D5 /* Concentration.swift */,
 				7FEA9E70209BC76200BBBBAF /* Info.plist */,
 			);
 			path = Concentration;
@@ -146,9 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FBF4185209BE2F1005D85D5 /* card.swift in Sources */,
+				7FBF4187209BE4DC005D85D5 /* Concentration.swift in Sources */,
 				7FEA9E67209BC75B00BBBBAF /* ViewController.swift in Sources */,
 				7FEA9E65209BC75B00BBBBAF /* AppDelegate.swift in Sources */,
+				7FBF4189209BE577005D85D5 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
