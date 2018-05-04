@@ -9,17 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    private var flipCounter = 0 {
+        didSet {
+            flipCountLabel.text = "Flips:  \(flipCounter)"
+        }
     }
+    
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func touchCard(_ sender: UIButton) {
     }
-
-
+    
+    @IBOutlet var CardButtons: [UIButton]!
+    
+    @IBOutlet weak var flipCountLabel: UILabel!
+    
+    
+    
+    
 }
 
