@@ -33,13 +33,22 @@
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fBt-gQ-glP"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWD-Ny-TtH">
+                                <rect key="frame" x="121" y="65" width="73" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZFP-6y-HXa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="cardButton" destination="LZs-zp-LPH" id="0Y5-PN-PkG"/>
-                        <outlet property="flipCountLabel" destination="S3h-Ck-koP" id="UJH-sv-RdU"/>
+                        <outlet property="flipCountLabel" destination="S3h-Ck-koP" id="0Hd-61-ni7"/>
+                        <outletCollection property="cardButtons" destination="LZs-zp-LPH" collectionClass="NSMutableArray" id="Yn5-X5-qaa"/>
+                        <outletCollection property="cardButtons" destination="ZWD-Ny-TtH" collectionClass="NSMutableArray" id="vAO-Dm-WvN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
