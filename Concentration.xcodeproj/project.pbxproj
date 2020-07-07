@@ -39,6 +39,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F548FC124B13EF5006E67C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FBF4188209BE577005D85D5 /* Card.swift */,
+				7FBF4186209BE4DC005D85D5 /* Concentration.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F548FC224B13F25006E67C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7FEA9E66209BC75B00BBBBAF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7F548FC324B13F2F006E67C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		7FEA9E58209BC75B00BBBBAF = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +82,11 @@
 		7FEA9E63209BC75B00BBBBAF /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
+				7F548FC324B13F2F006E67C6 /* View */,
+				7F548FC224B13F25006E67C6 /* Controller */,
+				7F548FC124B13EF5006E67C6 /* Model */,
 				7FEA9E76209BC85B00BBBBAF /* Supporting Files */,
-				7FEA9E66209BC75B00BBBBAF /* ViewController.swift */,
 				7FEA9E68209BC75B00BBBBAF /* Main.storyboard */,
-				7FBF4188209BE577005D85D5 /* Card.swift */,
-				7FBF4186209BE4DC005D85D5 /* Concentration.swift */,
 				7FEA9E70209BC76200BBBBAF /* Info.plist */,
 			);
 			path = Concentration;
@@ -110,6 +134,7 @@
 				TargetAttributes = {
 					7FEA9E60209BC75B00BBBBAF = {
 						CreatedOnToolsVersion = 9.4;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -299,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GX25QL3HJ8;
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GX25QL3HJ8;
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

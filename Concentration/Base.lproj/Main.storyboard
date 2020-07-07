@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14111" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -26,39 +24,35 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="W0d-LT-ffD">
-                                <rect key="frame" x="20" y="20" width="374" height="640"/>
+                                <rect key="frame" x="20" y="0.0" width="374" height="660"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="LFO-3F-rLL">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="154"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="159"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZs-zp-LPH">
-                                                <rect key="frame" x="0.0" y="0.0" width="87.666666666666671" height="154"/>
-                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="87.666666666666671" height="159"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fBt-gQ-glP"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWD-Ny-TtH">
-                                                <rect key="frame" x="95.666666666666686" y="0.0" width="87.333333333333314" height="154"/>
-                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <rect key="frame" x="95.666666666666686" y="0.0" width="87.333333333333314" height="159"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZFP-6y-HXa"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3RI-UO-y3e">
-                                                <rect key="frame" x="191" y="0.0" width="87.666666666666686" height="154"/>
-                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <rect key="frame" x="191" y="0.0" width="87.666666666666686" height="159"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2fC-kb-mGA"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAl-rQ-aj5">
-                                                <rect key="frame" x="286.66666666666669" y="0.0" width="87.333333333333314" height="154"/>
-                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <rect key="frame" x="286.66666666666669" y="0.0" width="87.333333333333314" height="159"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VRT-fF-Gyn"/>
                                                 </connections>
@@ -66,36 +60,32 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="hIJ-FB-vTv">
-                                        <rect key="frame" x="0.0" y="162" width="374" height="154"/>
+                                        <rect key="frame" x="0.0" y="167" width="374" height="159"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Saf-Zg-LXP">
-                                                <rect key="frame" x="0.0" y="0.0" width="87.666666666666671" height="154"/>
-                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="87.666666666666671" height="159"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GoB-mA-zzQ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kK-0L-BHv">
-                                                <rect key="frame" x="95.666666666666686" y="0.0" width="87.333333333333314" height="154"/>
-                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <rect key="frame" x="95.666666666666686" y="0.0" width="87.333333333333314" height="159"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3uH-Hd-wSk"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNr-Le-BZl">
-                                                <rect key="frame" x="191" y="0.0" width="87.666666666666686" height="154"/>
-                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <rect key="frame" x="191" y="0.0" width="87.666666666666686" height="159"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l1o-w9-z9j"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlr-0n-pXt">
-                                                <rect key="frame" x="286.66666666666669" y="0.0" width="87.333333333333314" height="154"/>
-                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <rect key="frame" x="286.66666666666669" y="0.0" width="87.333333333333314" height="159"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zoe-QY-KBB"/>
                                                 </connections>
@@ -103,36 +93,32 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="1lY-mn-xs4">
-                                        <rect key="frame" x="0.0" y="324" width="374" height="154"/>
+                                        <rect key="frame" x="0.0" y="334" width="374" height="159"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcO-XN-fb3">
-                                                <rect key="frame" x="0.0" y="0.0" width="87.666666666666671" height="154"/>
-                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="87.666666666666671" height="159"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xvd-Ss-eQE"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyk-nt-3u0">
-                                                <rect key="frame" x="95.666666666666686" y="0.0" width="87.333333333333314" height="154"/>
-                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <rect key="frame" x="95.666666666666686" y="0.0" width="87.333333333333314" height="159"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Wi-z0-9jn"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51W-V5-UQ1">
-                                                <rect key="frame" x="191" y="0.0" width="87.666666666666686" height="154"/>
-                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <rect key="frame" x="191" y="0.0" width="87.666666666666686" height="159"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="doL-Wt-kKO"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9c-W2-YiH">
-                                                <rect key="frame" x="286.66666666666669" y="0.0" width="87.333333333333314" height="154"/>
-                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <rect key="frame" x="286.66666666666669" y="0.0" width="87.333333333333314" height="159"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Asp-pH-Vdz"/>
                                                 </connections>
@@ -140,36 +126,32 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vVH-RZ-Pfk">
-                                        <rect key="frame" x="0.0" y="486" width="374" height="154"/>
+                                        <rect key="frame" x="0.0" y="501" width="374" height="159"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlH-Ko-RuJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="87.666666666666671" height="154"/>
-                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="87.666666666666671" height="159"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AO6-ni-mZY"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaR-tb-geO">
-                                                <rect key="frame" x="95.666666666666686" y="0.0" width="87.333333333333314" height="154"/>
-                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <rect key="frame" x="95.666666666666686" y="0.0" width="87.333333333333314" height="159"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7SW-rl-vHr"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1J-Or-jq6">
-                                                <rect key="frame" x="191" y="0.0" width="87.666666666666686" height="154"/>
-                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <rect key="frame" x="191" y="0.0" width="87.666666666666686" height="159"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qcm-ab-Ec6"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bcf-UU-vet">
-                                                <rect key="frame" x="286.66666666666669" y="0.0" width="87.333333333333314" height="154"/>
-                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <rect key="frame" x="286.66666666666669" y="0.0" width="87.333333333333314" height="159"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZUI-kE-Fho"/>
                                                 </connections>
@@ -178,11 +160,25 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3P-Na-ocG">
+                                <rect key="frame" x="117" y="338" width="180" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="ShX-oV-JK3"/>
+                                    <constraint firstAttribute="height" constant="60" id="w6J-nQ-Tza"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <state key="normal" title="Play Again?">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="S3h-Ck-koP" secondAttribute="bottom" constant="20" id="JN1-1T-dA7"/>
+                            <constraint firstItem="b3P-Na-ocG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="K5N-7y-Pn6"/>
                             <constraint firstItem="S3h-Ck-koP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="UX2-wi-zm9"/>
+                            <constraint firstItem="b3P-Na-ocG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VtI-pd-HW8"/>
                             <constraint firstItem="W0d-LT-ffD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="XZp-On-Pza"/>
                             <constraint firstItem="W0d-LT-ffD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ii4-ok-Si8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W0d-LT-ffD" secondAttribute="trailing" constant="20" id="kzT-2l-mm8"/>
@@ -192,6 +188,7 @@
                     </view>
                     <connections>
                         <outlet property="flipCountLabel" destination="S3h-Ck-koP" id="0Hd-61-ni7"/>
+                        <outlet property="playAgainBtn" destination="b3P-Na-ocG" id="3Py-ff-4aJ"/>
                         <outletCollection property="cardButtons" destination="tAl-rQ-aj5" collectionClass="NSMutableArray" id="HbC-b3-Hi8"/>
                         <outletCollection property="cardButtons" destination="ZWD-Ny-TtH" collectionClass="NSMutableArray" id="vAO-Dm-WvN"/>
                         <outletCollection property="cardButtons" destination="3RI-UO-y3e" collectionClass="NSMutableArray" id="vVM-hE-JGO"/>
@@ -212,7 +209,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+            <point key="canvasLocation" x="136.23188405797103" y="132.88043478260872"/>
         </scene>
     </scenes>
 </document>
